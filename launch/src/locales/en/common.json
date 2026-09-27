@@ -1,0 +1,389 @@
+{
+  "brand": "CLOX",
+  "tagline": "Australia-first full-load freight marketplace",
+  "loading": "Loading…",
+  "continue": "Continue",
+  "back": "Back",
+  "submit": "Submit",
+  "submitting": "Submitting…",
+  "privacy": "Privacy Policy",
+  "terms": "Terms & Conditions",
+  "email": "Email",
+  "phone": "Phone",
+  "preLaunch": "Pre-Launch",
+  "language": "Language",
+  "langEn": "EN",
+  "langHi": "HI",
+  "langPa": "PA",
+  "unexpectedError": "Unexpected error",
+  "errorTitle": "Something went wrong",
+  "errorBody": "Please refresh the page. If this keeps happening, try again later.",
+  "tryAgain": "Try again",
+  "backHome": "Back to home",
+  "close": "Close",
+  "gotIt": "Got it",
+  "draftLegal": "Pre-Launch & Early Access Phase",
+  "footerRights": "© 2026 CLOX Freight Forwarding ABN 48 626 269 387. All rights reserved. | Australia",
+  "selectAllThatApply": "Select all that apply.",
+  "shell": {
+    "stepRole": "Role",
+    "stepDetails": "Details",
+    "stepVerify": "Verify",
+    "privacyShort": "Privacy",
+    "termsShort": "Terms",
+    "contactShort": "Enquiries",
+    "footerContactHint": "Commercial interest: use Registry or Partner EOI. Enquiries: info@clox.com.au."
+  },
+  "home": {
+    "eyebrow": "Pre-Launch"
+  },
+  "registry": {
+    "title": "Pre-launch registry",
+    "subtitle": "Register as a sender or transport company ahead of platform launch.",
+    "sender": "Sender",
+    "carrier": "Transport company",
+    "heroTitleLine1": "Freight Broker",
+    "heroTitleLine2": "is Now Code.",
+    "heroWelcome": "Welcome to the future of Australian logistics.",
+    "joinTitle": "Join the Network",
+    "joinPrompt": "How will you participate?",
+    "senderRoleTitle": "Sender / Corporate Shipper",
+    "senderRoleSubtitle": "I need to ship freight",
+    "carrierRoleTitle": "Carrier / Transport Company",
+    "carrierRoleSubtitle": "I transport freight",
+    "selectRoleError": "Select a role to continue",
+    "senderDetails": "Sender details",
+    "carrierDetails": "Carrier details",
+    "companyLegalName": "Company Legal Name",
+    "companyPlaceholder": "e.g. Acme Manufacturing Pty Ltd",
+    "fleetPlaceholder": "e.g. Paramount Road Freighters",
+    "abn": "Australian Business Number (ABN)",
+    "abnPlaceholderSender": "Verified manually by Super Admin",
+    "abnPlaceholderCarrier": "Manual KYB review by Super Admin",
+    "shippingOrigin": "Primary Shipping Origin Base",
+    "selectCity": "Select City...",
+    "operationalModel": "Freight Operational Model Preference",
+    "biddingStructure": "Preferred Bidding & Booking Structure",
+    "monthlyVolume": "Average Monthly Freight Volume (AUD)",
+    "selectVolume": "Select volume range...",
+    "fleetEntityName": "Registered Transport Fleet Entity Name",
+    "depotState": "Primary Operational Base & Depot State",
+    "selectState": "Select State...",
+    "fleetComposition": "Active Fleet Composition",
+    "capabilities": "Specialized Capability & Permits",
+    "complianceAuth": "Compliance & Protected Payout Gateway Authorization",
+    "complianceAuthBody": "I authorize compliance verification of our ABN, Public Liability Insurance ($10M-$20M), and vehicle Roadworthy Certificates (RWC) for live system bidding.",
+    "verifyTitle": "Verification & Payout Infrastructure",
+    "infraAckHint": "Acknowledge this infrastructure component for launch readiness.",
+    "successTitle": "Registry completed successfully!",
+    "successBody": "You are now part of the CLOX System.",
+    "finalize": "Finalize & Submit Registry",
+    "termsRequired": "Please accept the Privacy Policy and Terms to continue.",
+    "termsAcceptPrefix": "I agree to the",
+    "termsAcceptAnd": "and",
+    "backToDetails": "← Back to Details",
+    "continueArrow": "Continue →",
+    "backArrow": "← Back",
+    "ops": {
+      "localCouriers": "Local Couriers & P2P On-Demand",
+      "heavyVehicle": "Heavy Vehicle / Multi-Stop Distribution",
+      "interstate": "Interstate Linehaul Lanes"
+    },
+    "bidding": {
+      "perKm": "Per-KM Dynamic Spot Market Bidding",
+      "hourlyBlock": "Standardized Hourly Block Booking (4-hr min)"
+    },
+    "volume": {
+      "under10k": "Under $10k",
+      "mid": "$10k - $50k",
+      "plus": "$50k+"
+    },
+    "fleet": {
+      "light": "Light Commercial / Courier Vans",
+      "medium": "Medium Rigid Trucks (3T - 8T MR)",
+      "heavy": "Heavy Rigid (HR / 3-Axle Tray)",
+      "prime": "Prime Movers / Semi-Trailers / B-Doubles"
+    },
+    "capability": {
+      "dg": "Dangerous Goods (DG) Licensed",
+      "osom": "Over-Size / Over-Mass (OSOM) Permits",
+      "cold": "Refrigerated / Cold Chain Infrastructure"
+    },
+    "infra": {
+      "easyAml": "easyAML Portal",
+      "stripe": "Protected Upfront Payments (Stripe Connect)",
+      "monoova": "Monoova NPP PayTo"
+    }
+  },
+  "eoi": {
+    "title": "Partner expression of interest",
+    "subtitle": "Apply as a Territory Sales Partner / Independent Territory Partner.",
+    "pageTitle": "EXPRESSION OF INTEREST (EOI) FORM",
+    "pageSubtitle": "Independent Territory Partner Program — Australian Road Freight Network",
+    "cardTitle": "Expression of Interest",
+    "introStrong": "Partner with CLOX:",
+    "introBody": "CLOX invites independent territory partners to help grow Australian road freight corridors — onboarding senders and carriers with complete operational autonomy. You set your own hours and strategies. Commercial terms are discussed after application under NDA.",
+    "section1": "1. PARTNER ROLE & TARGET TERRITORY",
+    "section2": "2. APPLICANT PRIMARY INFORMATION",
+    "section3": "3. LOGISTICS NETWORK & PROFESSIONAL EXPERIENCE",
+    "section4": "4. COMMERCIAL FRAMEWORK OVERVIEW",
+    "section5": "5. PARTNERSHIP DECLARATIONS & SIGNATURE BANDS",
+    "localBdeTitle": "Territory Sales Partner / Independent Territory Partner",
+    "localBdeBadge": "Independent contractor",
+    "localBdeDesc": "Operate as an independent commercial partner for your territory — grow shipper and carrier networks, develop lane density, and manage local relationships with complete operational autonomy. You set your own hours and go-to-market strategies; this is not an employee or representative role.",
+    "targetState": "Target State / Region",
+    "targetTerritory": "Target Suburbs / City",
+    "fullLegalName": "Full Legal Name",
+    "companyName": "Company Entity Name",
+    "abn": "ABN",
+    "acn": "ACN (if applicable)",
+    "primaryEmail": "Primary Email",
+    "contactPhone": "Contact Phone",
+    "corporateAddress": "Corporate Address",
+    "networkExperience": "Briefly outline your existing network, industry footprint, or experience within the Australian logistics ecosystem",
+    "executionStrategy": "Specify your target execution strategy (e.g., local shipper acquisition channels, corporate sender procurement networks, fleet onboarding resources)",
+    "commercialOverview": "Selected partners may access commercial opportunities aligned to their territory. Exact commercial terms and settlement mechanics are provided only after application and under the applicable CLOX NDA / Master Administration Agreement — not on this public form. No fee splits or commission percentages are published here.",
+    "settlementNote": "*Submitting this EOI does not create a partnership or disclose binding commercial terms. Details are shared only with shortlisted applicants under confidentiality.",
+    "declaration": "By executing this Expression of Interest (EOI), the applicant confirms that all information provided is true, accurate, and current. The applicant acknowledges that submission of this form does not guarantee admission into the CLOX partner network, and that final selection is contingent upon strict KYB screening, manual executive board review, and execution of the formal CLOX Master Administration Agreement and non-compete frameworks. All discussions and proprietary operational disclosures remain strictly bound by the terms of the active CLOX Non-Disclosure Agreement (NDA). The applicant understands this is an independent contractor / commercial partner opportunity — not employment.",
+    "successTitle": "EOI submitted successfully!",
+    "successBody": "We will be in touch shortly.",
+    "submit": "Submit Expression of Interest"
+  },
+  "investors": {
+    "title": "Investor portal",
+    "subtitle": "Early-access equity round registration and pre-qualification.",
+    "pageTitle": "CLOX INVESTOR PORTAL",
+    "pageSubtitle": "Early-Access Equity Round Registration & Pre-Qualification Form",
+    "cardTitle": "Investor Pre-Qualification",
+    "confidentiality": "All information submitted via this form is protected under the CLOX Master Non-Disclosure Agreement (NDA) and will be utilized exclusively to evaluate investor status compliance under Australian Corporations Act 2001 regulations.",
+    "section1": "1. PRIMARY INVESTOR INFORMATION",
+    "section2": "2. INVESTOR CLASSIFICATION & ACCREDITATION",
+    "section3": "3. INVESTMENT PROFILE & COMMITMENT TARGET",
+    "section4": "4. STRATEGIC VALUE & NETWORK ALIGNMENT",
+    "section5": "5. INVESTOR DECLARATION & NDA ACKNOWLEDGMENT",
+    "fullNameOrEntity": "Full Entity / Individual Name",
+    "contactPersonName": "Contact Person Name (if Entity)",
+    "emailAddress": "Email Address",
+    "phoneNumber": "Phone Number",
+    "abn": "ABN (if applicable)",
+    "acn": "ACN (if applicable)",
+    "residence": "Principal Country / State of Residence",
+    "capitalAllocation": "Intended capital allocation (AUD)",
+    "ecosystemFocus": "Ecosystem value-add focus area",
+    "strategicNotes": "Briefly outline any strategic networks or industry lanes you can accelerate within CLOX",
+    "declaration": "I confirm that all statements made herein are accurate, and I agree to be bound by the ongoing confidentiality terms regarding the CLOX algorithmic 4PL operational structures.",
+    "authorizedName": "Authorized Name (digital signature)",
+    "successTitle": "Investor registration submitted.",
+    "successBody": "Our team will review your accreditation and be in touch.",
+    "submit": "Submit Investor Pre-Qualification",
+    "footerContact": "Questions: info@clox.com.au · CLOX HQ · Clyde North, Victoria",
+    "class": {
+      "sophisticatedTitle": "Sophisticated Investor",
+      "sophisticatedDesc": "Gross income ≥ $250k/yr for last 2 yrs OR net assets ≥ $2.5M with Accountant Certificate.",
+      "professionalTitle": "Professional Investor",
+      "professionalDesc": "Financial services licensee, body corporate ≥ $10M assets, or regulated entity.",
+      "strategicTitle": "Strategic Industry Partner",
+      "strategicDesc": "Logistics provider, fleet owner, or corporate sender ecosystem affiliate."
+    },
+    "capital": {
+      "band1": "$25,000 – $99,999",
+      "band2": "$100,000 – $249,999",
+      "band3": "$250,000 – $499,999",
+      "band4": "$500,000+ (Institutional / Lead)"
+    },
+    "focus": {
+      "financial": "Pure Financial Growth Capital",
+      "carrier": "Strategic Carrier Fleet Integration",
+      "sender": "Enterprise Corporate Sender Pipeline",
+      "admin": "Regional Admin / Network Expansion"
+    }
+  },
+  "legal": {
+    "back": "← Back",
+    "phase": "Pre-Launch & Early Access Phase",
+    "privacy": {
+      "meta": "Achieve Global Enterprises Pty Ltd · Trading as CLOX Freight Forwarding · ABN 48 626 269 387 · Victoria, Australia · Effective July 2026",
+      "intro": "This Privacy Policy specifically governs data collected during the pre-launch, marketing, and early-registration phase of the CLOX platform via our public website.",
+      "description": "How Achieve Global Enterprises Pty Ltd trading as CLOX collects, holds, uses, and discloses personal data during the pre-launch and early-access phase under the Australian Privacy Principles.",
+      "sections": [
+        {
+          "heading": "1. Introduction & Commitment to Privacy",
+          "paragraphs": [
+            "Achieve Global Enterprises Pty Ltd (ABN 48 626 269 387) trading as CLOX (\"CLOX\", \"we\", \"us\", or \"our\") is committed to protecting the privacy of your personal information. As an Australian-based 4PL digital ecosystem, we are bound by the Australian Privacy Principles (APPs) contained in the Privacy Act 1988 (Cth).",
+            "This Privacy Policy explains how we collect, hold, use, and disclose personal data when you visit our pre-launch website, register for early access, subscribe to our newsletter, or submit an Expression of Interest (EOI)."
+          ]
+        },
+        {
+          "heading": "2. Information We Collect",
+          "paragraphs": [
+            "During the pre-launch phase, our primary objective is to capture interest from corporate shippers, transport carriers, and potential regional administrators. To facilitate this, we may collect:"
+          ],
+          "bullets": [
+            "Identity & Contact Data: First name, last name, business email address, and mobile phone number.",
+            "Corporate Data: Business name, Australian Business Number (ABN) or Australian Company Number (ACN), fleet composition details, and primary operational base (e.g., Victoria, NSW).",
+            "Technical & Usage Data: IP address, browser type and version, time zone setting, browser plug-in types, operating system, and data on how you interact with our website.",
+            "Communication Data: Any information provided when communicating with us via forms, email, or social media inquiries."
+          ]
+        },
+        {
+          "heading": "3. How We Use Your Information",
+          "paragraphs": [
+            "We strictly use the data collected to prepare for the official deployment of the CLOX ecosystem. Your data is used to:"
+          ],
+          "bullets": [
+            "Register your position on the CLOX early-access waitlist.",
+            "Pre-validate corporate entity structures (via public ABN lookups) in preparation for our automated Compliance Gate.",
+            "Distribute pre-launch updates, marketing materials, and platform launch schedules (subject to your consent).",
+            "Assess market demand and segment our audience into Shippers (Demand-Side) and Carriers (Supply-Side).",
+            "Process applications for Territory Sales Partner / Independent Territory Partner roles.",
+            "Improve our website, marketing campaigns, and technical infrastructure."
+          ]
+        },
+        {
+          "heading": "4. Data Security & Storage Architecture",
+          "paragraphs": [
+            "CLOX takes data security seriously. We implement robust physical, technical, and administrative safeguards to protect your personal and corporate information against unauthorized access, loss, or alteration.",
+            "Consistent with our sovereign infrastructure model, data collected during this phase is stored on secure, localized servers governed by Australian jurisdiction. We utilize encryption in transit (HTTPS/SSL) and at rest to ensure your preliminary registration data remains confidential prior to our full platform launch."
+          ]
+        },
+        {
+          "heading": "5. Third-Party Disclosure & API Integrations",
+          "paragraphs": [
+            "We do not sell, trade, or rent your personal information to third parties. We may disclose your information only to the following trusted partners under strict confidentiality agreements:"
+          ],
+          "bullets": [
+            "Service Providers: Cloud hosting providers, email marketing platforms, and customer relationship management (CRM) systems.",
+            "Compliance & Verification APIs: In preparation for launch, we may run preliminary, non-invasive corporate identity checks using public business registers to verify ABN statuses. Note: Full KYC/KYB audits utilizing third-party identity verification service providers will only occur at the time of official platform onboarding.",
+            "Legal Obligations: If required by law, court order, or regulatory authority."
+          ]
+        },
+        {
+          "heading": "6. Cookies & Website Tracking",
+          "paragraphs": [
+            "Our website utilizes cookies and similar tracking technologies to enhance user experience and analyze website traffic. Cookies are small data files stored on your device. You have the right to accept or decline cookies through your browser settings, though declining may limit your access to certain website features."
+          ]
+        },
+        {
+          "heading": "7. Your Privacy Rights",
+          "paragraphs": [
+            "Under the Privacy Act 1988 (Cth), you are entitled to:"
+          ],
+          "bullets": [
+            "Access: Request details of the personal information we hold about you.",
+            "Correction: Request corrections to any inaccurate, incomplete, or outdated information.",
+            "Opt-Out: Unsubscribe from marketing communications at any time by clicking the \"unsubscribe\" link in our emails."
+          ]
+        },
+        {
+          "heading": "8. Changes to this Policy",
+          "paragraphs": [
+            "As the CLOX platform transitions from the pre-launch phase to a live operational digital freight marketplace, this Privacy Policy will be significantly expanded to cover full telematics, geofencing, Protected Upfront Payments handling (via payment infrastructure providers), and driver safety sequences. We will notify registered users of any material updates."
+          ]
+        },
+        {
+          "heading": "9. Contact Information",
+          "paragraphs": [
+            "If you have any questions, concerns, or requests regarding this Privacy Policy or our data handling practices, please contact our Privacy Officer:",
+            "Achieve Global Enterprises Pty Ltd t/a CLOX"
+          ],
+          "bullets": [
+            "Email: info@clox.com.au"
+          ]
+        }
+      ]
+    },
+    "terms": {
+      "meta": "Achieve Global Enterprises Pty Ltd · Trading as CLOX Freight Forwarding · ABN 48 626 269 387 · Victoria, Australia · Effective July 2026",
+      "intro": "These Terms and Conditions govern the use of the CLOX pre-launch promotional website. They do not constitute the final Master Terms & Conditions governing the operational digital freight marketplace.",
+      "description": "Website terms for the CLOX pre-launch promotional site operated by Achieve Global Enterprises Pty Ltd trading as CLOX Freight Forwarding (ABN 48 626 269 387), Victoria, Australia.",
+      "sections": [
+        {
+          "heading": "1. Acceptance of Terms",
+          "paragraphs": [
+            "By accessing, browsing, or using the CLOX pre-launch website (\"Website\"), you acknowledge that you have read, understood, and agree to be bound by these Terms and Conditions (\"Terms\"). If you do not agree to these Terms, you must immediately cease using the Website."
+          ]
+        },
+        {
+          "heading": "2. Operator Details",
+          "paragraphs": [
+            "The Website is owned and operated by Achieve Global Enterprises Pty Ltd (ABN 48 626 269 387), trading as CLOX Freight Forwarding (\"CLOX\", \"we\", \"us\", \"our\"). We are a registered Australian corporation headquartered in Victoria, Australia."
+          ]
+        },
+        {
+          "heading": "3. Pre-Launch Registration & Waitlist",
+          "paragraphs": [
+            "The current iteration of the Website serves as a promotional and early-access registration portal for the upcoming CLOX 4PL digital ecosystem."
+          ],
+          "bullets": [
+            "No Guarantee of Service: Submitting a registration form, Expression of Interest (EOI), or subscribing to our mailing list does not constitute a binding contract for transport, logistics, or administrative services.",
+            "Priority Access: Any incentives offered for early registration (e.g., waived platform fees, fast-tracked corporate onboarding) are promotional and remain subject to the execution of our formal operational agreements (e.g., Shipper Agreement, Carrier Agreement) upon platform launch.",
+            "Information Accuracy: You agree to provide accurate, current, and complete business information (including valid ABNs/ACNs) when joining the waitlist to facilitate our compliance vetting processes."
+          ]
+        },
+        {
+          "heading": "4. Intellectual Property Rights",
+          "paragraphs": [
+            "All content, designs, logos, graphics, text, UI elements, operational frameworks (including descriptions of our automated dispatch, Protected Upfront Payments architecture, and safety lockouts), and other materials on this Website are the exclusive intellectual property of Achieve Global Enterprises Pty Ltd, protected by Australian and international copyright and trademark laws.",
+            "You may not reproduce, distribute, reverse-engineer, modify, or create derivative works from any material on this Website without our express prior written consent."
+          ]
+        },
+        {
+          "heading": "5. Acceptable Use of the Website",
+          "paragraphs": [
+            "When using our Website, you must not:"
+          ],
+          "bullets": [
+            "Engage in any activity that interferes with or disrupts the Website's functionality or servers.",
+            "Use automated scripts, scrapers, bots, or data-mining tools to extract information, operational logic, or user data from the Website.",
+            "Submit false, misleading, or deceptive information via our forms.",
+            "Attempt to gain unauthorized access to backend systems, databases, or restricted areas of the site."
+          ]
+        },
+        {
+          "heading": "6. Third-Party Links & Content",
+          "paragraphs": [
+            "Our Website may contain links to external third-party websites or services (for example, payment infrastructure providers and identity verification service providers) to explain our upcoming platform architecture. These links are provided for informational purposes only. CLOX does not endorse or assume responsibility for the content, privacy policies, or practices of any third-party websites."
+          ]
+        },
+        {
+          "heading": "7. Disclaimers & Limitation of Liability",
+          "paragraphs": [],
+          "bullets": [
+            "As-Is Basis: The Website and its content are provided on an \"as is\" and \"as available\" basis. While we strive to ensure the accuracy of the information provided regarding the future CLOX platform, we make no representations or warranties of any kind, express or implied, regarding the completeness, accuracy, or availability of the Website.",
+            "Future Features: Descriptions of the CLOX platform (including algorithmic pricing, our proprietary routing engine, and Protected Upfront Payments integrations) represent our development roadmap and are subject to change without notice prior to the official launch.",
+            "Limitation of Liability: To the maximum extent permitted by the Australian Consumer Law (ACL), Achieve Global Enterprises Pty Ltd shall not be liable for any direct, indirect, incidental, consequential, or punitive damages arising out of your access to, or use of, the Website, or reliance on any information provided herein."
+          ]
+        },
+        {
+          "heading": "8. Indemnity",
+          "paragraphs": [
+            "You agree to indemnify, defend, and hold harmless Achieve Global Enterprises Pty Ltd, its directors, officers, employees, and agents from any claims, liabilities, damages, costs, or expenses (including legal fees) arising from your breach of these Terms or your misuse of the Website."
+          ]
+        },
+        {
+          "heading": "9. Governing Law & Jurisdiction",
+          "paragraphs": [
+            "These Terms and Conditions are governed by and construed in accordance with the laws of the State of Victoria, Australia. Any disputes arising out of or in connection with these Terms shall be subject to the exclusive jurisdiction of the courts of Victoria."
+          ]
+        },
+        {
+          "heading": "10. Changes to these Terms",
+          "paragraphs": [
+            "We reserve the right to modify, amend, or update these Terms at any time without prior notice. The updated Terms will be effective immediately upon publication on the Website. Your continued use of the Website following any changes constitutes your acceptance of the revised Terms.",
+            "Once the CLOX platform is live, these pre-launch Terms will be superseded by our comprehensive Master Terms & Conditions, Carrier Agreement, and Shipper Agreement."
+          ]
+        },
+        {
+          "heading": "Contact Information",
+          "paragraphs": [
+            "For inquiries regarding these Terms, please contact us at:",
+            "Achieve Global Enterprises Pty Ltd t/a CLOX"
+          ],
+          "bullets": [
+            "Email: info@clox.com.au"
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,33 @@
+# dependencies
+node_modules
+.pnp
+.pnp.js
+
+# next
+.next
+out
+
+# serwist / sw build artifacts that are regenerated
+public/sw.js
+public/sw.js.map
+public/swe-worker*
+public/serwist*
+
+# logs / env
+logs
+*.log
+npm-debug.log*
+.env
+.env*.local
+*.local
+
+# editor
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
