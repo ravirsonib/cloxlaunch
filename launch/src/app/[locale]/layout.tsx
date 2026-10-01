@@ -3,7 +3,7 @@ import { notFound } from 'next/navigation';
 import { AppProviders } from '@/app/providers';
 import { ErrorBoundary } from '@/components/error-boundary';
 import { LocaleHtmlLang } from '@/components/locale-html-lang';
-import { SiteAssistant } from '@/components/site-assistant';
+// import { SiteAssistant } from '@/components/site-assistant';
 import { PwaRegister } from '@/components/pwa-register';
 import { isAppLocale, type AppLocale, supportedLocales } from '@/locales';
 
@@ -27,7 +27,7 @@ export default async function LocaleLayout({
       <LocaleHtmlLang locale={locale} />
       <ErrorBoundary homeHref={`/${locale}`}>
         {children}
-        <SiteAssistant locale={locale} />
+        {/* Temporarily hidden — re-enable <SiteAssistant locale={locale} /> when ready */}
         <PwaRegister />
       </ErrorBoundary>
     </AppProviders>
