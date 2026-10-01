@@ -3,8 +3,8 @@ export const homeCopyPa = {
     { label: 'ਘਰ', href: '#banner' },
     { label: 'ਬਾਰੇ', href: '#aboutus' },
     { label: 'ਤੁਲਨਾ', href: '#comparison' },
-    { label: 'ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ', href: '#features' },
     { label: 'ਮੈਚਿੰਗ', href: '#matching' },
+    { label: 'ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ', href: '#features' },
     { label: 'ਯਾਤਰਾ', href: '#process' },
     { label: 'ਇਕੋਸਿਸਟਮ', href: '#ecosystem' },
     { label: 'ਆਮ ਸਵਾਲ', href: '#faq' },
@@ -128,34 +128,20 @@ export const homeCopyPa = {
   ],
   matchingNote:
     'ਵਾਹਨ ਅਤੇ ਲੋਡ ਮੈਚਿੰਗ ਲਾਈਵ ਮਾਰਕੀਟਪਲੇਸ ਓਪਰੇਸ਼ਨਾਂ ਨਾਲ ਖੁੱਲ੍ਹੇਗੀ — ਛੇਤੀ ਐਕਸੈਸ ਲਈ ਹੁਣ ਰਜਿਸਟਰ ਕਰੋ।',
-  matchingClassesTitle: 'ਫੁੱਲ-ਲੋਡ ਵਾਹਨ ਵਰਗ (ਸੰਕੇਤਕ)',
+  matchingClassesTitle: 'ਫੁੱਲ-ਲੋਡ | ਸਾਰੀਆਂ ਕਿਸਮਾਂ ਵਾਹਨ ਵਰਗ (ਸੰਕੇਤਕ)',
   matchingPayloadLabel: 'ਪੇਲੋਡ',
   matchingCapacityLabel: 'ਸਮਰੱਥਾ',
   matchingClasses: [
-    [
-      'ਮੀਡੀਅਮ ਰਿਗਿਡ (3–8T)',
-      'ਖੇਤਰੀ ਵੰਡ ਅਤੇ ਵੇਅਰਹਾਊਸ ਲੇਨਾਂ',
-      '3 – 8 T',
-      '16 ਪੈਲੇਟ ਤੱਕ',
-    ],
-    [
-      'ਹੈਵੀ ਰਿਗਿਡ / ਟਰੇ',
-      'ਬਲਕ, ਸਟੀਲ ਅਤੇ ਸਾਈਟ-ਐਕਸੈਸ ਫਰੇਟ',
-      '8 – 15 T',
-      '24 ਪੈਲੇਟ ਤੱਕ',
-    ],
-    [
-      'ਸੈਮੀ-ਟਰੇਲਰ',
-      'ਇੰਟਰਸਟੇਟ ਫੁੱਲ-ਲੋਡ ਲਾਈਨਹੌਲ',
-      '20 – 36 T',
-      '42 ਪੈਲੇਟ ਤੱਕ',
-    ],
-    [
-      'ਬੀ-ਡਬਲ',
-      'ਉੱਚ-ਸਮਰੱਥਾ ਕੋਰਿਡੋਰ ਫਰੇਟ',
-      '60 T ਤੱਕ',
-      '72 ਪੈਲੇਟ ਤੱਕ',
-    ],
+    'UTE',
+    'VAN',
+    'RIGID TRUCK',
+    '4x2 / 6x2 TRUCK',
+    'ARTICULATED',
+    'TIPPER',
+    'FLATBED',
+    'REFRIGERATED',
+    'OVERSIZE / HEAVY HAULAGE',
+    'B-DOUBLE TRAILER',
   ],
   journeyTitle: 'ਡਿਜੀਟਲ ਸ਼ਿਪਿੰਗ ਯਾਤਰਾ',
   journeySub: 'ਸਧਾਰਨ ਚਾਰ-ਪੜਾਅ ਪ੍ਰਕਿਰਿਆ',
@@ -271,7 +257,7 @@ export const homeCopyPa = {
   cohortTitle: 'ਅੱਜ ਹੀ ਪ੍ਰੀ-ਲਾਂਚ ਕੋਹੌਰਟ ਨਾਲ ਜੁੜੋ',
   cohortBody:
     'ਆਨਬੋਰਡਿੰਗ ਕਤਾਰਾਂ ਤੋਂ ਬਚਣ ਅਤੇ ਵਿਸ਼ੇਸ਼ ਇਕੋਸਿਸਟਮ ਲਾਭ ਅਨਲੌਕ ਕਰਨ ਲਈ ਛੇਤੀ ਰਜਿਸਟਰ ਕਰੋ।',
-  benefitsTitle: 'ਸ਼ੁਰੂਆਤੀ ਰਜਿਸਟਰੈਂਟਾਂ ਨੂੰ ਮਿਲਦਾ ਹੈ:',
+  benefitsTitle: 'ਸ਼ੁਰੂਆਤੀ ਰਜਿਸਟਰੈਂਟਾਂ ਨੂੰ ਇਹ ਪਲੇਟਫਾਰਮ ਲਾਭ ਮਿਲਦੇ ਹਨ:',
   benefits: [
     'ਤਰਜੀਹੀ ਲਾਈਵ-ਬਿਡਿੰਗ ਐਕਸੈਸ — ਮਾਰਕੀਟਪਲੇਸ ਖੁੱਲ੍ਹਦੇ ਹੀ ਤਰਜੀਹੀ ਬੁਕਿੰਗ ਟੀਅਰਾਂ ਲਈ ਤੁਰੰਤ ਅਧਿਕਾਰ।',
     'ਜ਼ੀਰੋ ਸ਼ੁਰੂਆਤੀ ਫੀਸ — ਸੈੱਟਅੱਪ ਅਤੇ ਸ਼ੁਰੂਆਤੀ ਲਾਗਤਾਂ ਪੂਰੀ ਤਰ੍ਹਾਂ ਮਾਫ਼।',
@@ -288,8 +274,10 @@ export const homeCopyPa = {
   termsShort: 'ਸ਼ਰਤਾਂ',
   contactShort: 'ਪੁੱਛਗਿੱਛ',
   contactHref: 'mailto:info@clox.com.au',
-  footerLine:
-    '© 2026 CLOX Freight Forwarding ABN 48 626 269 387. ਸਾਰੇ ਹੱਕ ਰਾਖਵੇਂ ਹਨ। | Australia',
+  footerCopyright: '© 2026 CLOX Freight Forwarding',
+  footerAbn: 'ABN 48 626 269 387',
+  footerRightsLine: 'ਸਾਰੇ ਹੱਕ ਰਾਖਵੇਂ ਹਨ। | Australia',
+  linkedinLabel: 'LinkedIn',
   footerContactHint:
     'ਵਪਾਰਕ ਦਿਲਚਸਪੀ: Registry ਜਾਂ Partner EOI ਵਰਤੋ। ਪੁੱਛਗਿੱਛ: info@clox.com.au।',
 } as const;

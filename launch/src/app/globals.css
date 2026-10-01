@@ -90,6 +90,53 @@
   .clox-measure {
     @apply mx-auto w-full max-w-[800px] 2xl:max-w-[900px];
   }
+
+  .journey-ring {
+    animation: journey-spin 18s linear infinite;
+  }
+
+  .journey-card:hover .journey-ring,
+  .journey-card:focus-within .journey-ring {
+    animation-duration: 15s;
+  }
+
+  @keyframes journey-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .journey-ring {
+      animation: none;
+    }
+  }
+
+  .matching-marquee-track {
+    animation: matching-marquee 40s linear infinite;
+  }
+
+  .matching-marquee:hover .matching-marquee-track {
+    animation-play-state: paused;
+  }
+
+  @keyframes matching-marquee {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-50%);
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .matching-marquee-track {
+      animation: none;
+    }
+  }
 }
 
 /* 3xl (1920px+) — custom breakpoint can't be @apply'd with arbitrary values */

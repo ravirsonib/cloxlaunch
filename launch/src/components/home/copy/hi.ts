@@ -3,8 +3,8 @@ export const homeCopyHi = {
     { label: 'होम', href: '#banner' },
     { label: 'हमारे बारे में', href: '#aboutus' },
     { label: 'तुलना', href: '#comparison' },
-    { label: 'विशेषताएँ', href: '#features' },
     { label: 'मैचिंग', href: '#matching' },
+    { label: 'विशेषताएँ', href: '#features' },
     { label: 'यात्रा', href: '#process' },
     { label: 'इकोसिस्टम', href: '#ecosystem' },
     { label: 'सामान्य प्रश्न', href: '#faq' },
@@ -128,34 +128,20 @@ export const homeCopyHi = {
   ],
   matchingNote:
     'वाहन और लोड मैचिंग लाइव मार्केटप्लेस संचालन के साथ खुलेगी — शुरुआती एक्सेस के लिए अभी रजिस्टर करें।',
-  matchingClassesTitle: 'फुल-लोड वाहन वर्ग (संकेतात्मक)',
+  matchingClassesTitle: 'फुल-लोड | सभी प्रकार वाहन वर्ग (संकेतात्मक)',
   matchingPayloadLabel: 'पेलोड',
   matchingCapacityLabel: 'क्षमता',
   matchingClasses: [
-    [
-      'मीडियम रिगिड (3–8T)',
-      'क्षेत्रीय वितरण और वेयरहाउस लेन',
-      '3 – 8 T',
-      '16 पैलेट तक',
-    ],
-    [
-      'हेवी रिगिड / ट्रे',
-      'बल्क, स्टील और साइट-एक्सेस फ्रेट',
-      '8 – 15 T',
-      '24 पैलेट तक',
-    ],
-    [
-      'सेमी-ट्रेलर',
-      'इंटरस्टेट फुल-लोड लाइनहॉल',
-      '20 – 36 T',
-      '42 पैलेट तक',
-    ],
-    [
-      'बी-डबल',
-      'उच्च-क्षमता कॉरिडोर फ्रेट',
-      '60 T तक',
-      '72 पैलेट तक',
-    ],
+    'UTE',
+    'VAN',
+    'RIGID TRUCK',
+    '4x2 / 6x2 TRUCK',
+    'ARTICULATED',
+    'TIPPER',
+    'FLATBED',
+    'REFRIGERATED',
+    'OVERSIZE / HEAVY HAULAGE',
+    'B-DOUBLE TRAILER',
   ],
   journeyTitle: 'डिजिटल शिपिंग यात्रा',
   journeySub: 'सरल चार-चरण प्रक्रिया',
@@ -271,7 +257,7 @@ export const homeCopyHi = {
   cohortTitle: 'आज ही प्री-लॉन्च कोहॉर्ट से जुड़ें',
   cohortBody:
     'ऑनबोर्डिंग कतारों से बचने और विशेष इकोसिस्टम लाभ अनलॉक करने के लिए जल्दी रजिस्टर करें।',
-  benefitsTitle: 'शुरुआती रजिस्ट्रेंट्स को मिलता है:',
+  benefitsTitle: 'शुरुआती रजिस्ट्रेंट्स को ये प्लेटफ़ॉर्म लाभ मिलते हैं:',
   benefits: [
     'प्राथमिकता लाइव-बिडिंग एक्सेस — मार्केटप्लेस खुलते ही प्राथमिकता बुकिंग टियर के तत्काल अधिकार।',
     'शून्य आरंभ शुल्क — सेटअप और आरंभ लागत पूरी तरह माफ़।',
@@ -288,8 +274,10 @@ export const homeCopyHi = {
   termsShort: 'नियम',
   contactShort: 'पूछताछ',
   contactHref: 'mailto:info@clox.com.au',
-  footerLine:
-    '© 2026 CLOX Freight Forwarding ABN 48 626 269 387. सर्वाधिकार सुरक्षित। | Australia',
+  footerCopyright: '© 2026 CLOX Freight Forwarding',
+  footerAbn: 'ABN 48 626 269 387',
+  footerRightsLine: 'सर्वाधिकार सुरक्षित। | Australia',
+  linkedinLabel: 'LinkedIn',
   footerContactHint:
     'व्यावसायिक रुचि: Registry या Partner EOI का उपयोग करें। पूछताछ: info@clox.com.au।',
 } as const;

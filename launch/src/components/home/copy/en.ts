@@ -3,8 +3,8 @@ export const homeCopyEn = {
     { label: 'Home', href: '#banner' },
     { label: 'About', href: '#aboutus' },
     { label: 'Compare', href: '#comparison' },
-    { label: 'Features', href: '#features' },
     { label: 'Matching', href: '#matching' },
+    { label: 'Features', href: '#features' },
     { label: 'Journey', href: '#process' },
     { label: 'Ecosystem', href: '#ecosystem' },
     { label: 'FAQ', href: '#faq' },
@@ -109,7 +109,7 @@ export const homeCopyEn = {
     'Manual admin review before live-bidding privileges',
   ],
   matchingTitle: 'The Right Vehicle for the Job',
-  matchingEyebrow: 'Vehicle & load matching',
+  matchingEyebrow: 'Vehicle & Load Matching',
   matchingBody:
     'CLOX is designed to match shipment dimensions and payload to suitable transport options — so senders declare the load, the platform recommends a minimum vehicle class, and carriers propose a compliant vehicle and driver.',
   matchingSteps: [
@@ -128,34 +128,20 @@ export const homeCopyEn = {
   ],
   matchingNote:
     'Vehicle and load matching opens with live marketplace operations — register now for early access.',
-  matchingClassesTitle: 'Full-load vehicle classes (indicative)',
+  matchingClassesTitle: 'Full-load | All types vehicle classes (indicative)',
   matchingPayloadLabel: 'Payload',
   matchingCapacityLabel: 'Capacity',
   matchingClasses: [
-    [
-      'Medium Rigid (3–8T)',
-      'Regional distribution and warehouse lanes',
-      '3 – 8 T',
-      'Up to 16 pallets',
-    ],
-    [
-      'Heavy Rigid / Tray',
-      'Bulk, steel, and site-access freight',
-      '8 – 15 T',
-      'Up to 24 pallets',
-    ],
-    [
-      'Semi-trailer',
-      'Interstate full-load linehaul',
-      '20 – 36 T',
-      'Up to 42 pallets',
-    ],
-    [
-      'B-Double',
-      'High-capacity corridor freight',
-      'up to 60 T',
-      'Up to 72 pallets',
-    ],
+    'UTE',
+    'VAN',
+    'RIGID TRUCK',
+    '4x2 / 6x2 TRUCK',
+    'ARTICULATED',
+    'TIPPER',
+    'FLATBED',
+    'REFRIGERATED',
+    'OVERSIZE / HEAVY HAULAGE',
+    'B-DOUBLE TRAILER',
   ],
   journeyTitle: 'The Digital Shipping Journey',
   journeySub: 'The Simple Four-Step Process',
@@ -271,7 +257,7 @@ export const homeCopyEn = {
   cohortTitle: 'Join the Pre-Launch Cohort Today',
   cohortBody:
     'Register early to bypass onboarding queues and unlock exclusive ecosystem benefits.',
-  benefitsTitle: 'Early registrants receive:',
+  benefitsTitle: 'Early registrants receive these platform benefits:',
   benefits: [
     'Priority Live-Bidding Access — instant privileges to priority booking tiers the moment the marketplace opens.',
     'Zero Initiation Fees — join with completely waived setup and initiation costs.',
@@ -288,7 +274,9 @@ export const homeCopyEn = {
   termsShort: 'Terms',
   contactShort: 'Enquiries',
   contactHref: 'mailto:info@clox.com.au',
-  footerLine:
-    '© 2026 CLOX Freight Forwarding ABN 48 626 269 387. All rights reserved. | Australia',
+  footerCopyright: '© 2026 CLOX Freight Forwarding',
+  footerAbn: 'ABN 48 626 269 387',
+  footerRightsLine: 'All rights reserved. | Australia',
+  linkedinLabel: 'LinkedIn',
   footerContactHint: 'Commercial interest: use Registry or Partner EOI. Enquiries: info@clox.com.au.',
 } as const;

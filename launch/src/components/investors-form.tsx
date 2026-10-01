@@ -3,6 +3,7 @@
 import { useMutation } from '@tanstack/react-query';
 import { useState } from 'react';
 import { useForm } from 'react-hook-form';
+import { useRouter } from 'next/navigation';
 import { useTranslation } from 'react-i18next';
 import { resolveLeadLocale } from '@/locales';
 import {
@@ -17,6 +18,7 @@ import {
   PublicShell,
   inputClassName,
 } from '@/components/public-shell';
+import { CloxLoader } from '@/components/clox-loader';
 import {
   ChoiceCard,
   ChoiceCheckbox,
@@ -26,6 +28,7 @@ import {
 import { SuccessModal } from '@/components/success-modal';
 import { getErrorDetail, submitInvestorLead } from '@/lib/api';
 import { focusFirstFormError } from '@/lib/form-errors';
+import { useLocaleParam } from '@/lib/use-locale-param';
 
 type Classification = (typeof investorClassificationSchema.options)[number];
 type CapitalBand = (typeof capitalAllocationSchema.options)[number];
@@ -94,6 +97,8 @@ const focusAreas: {
 
 export function InvestorsPage() {
   const { t, i18n } = useTranslation('common');
+  const router = useRouter();
+  const locale = useLocaleParam();
   const [success, setSuccess] = useState(false);
   const [fieldErrors, setFieldErrors] = useState<FieldErrors>({});
 
@@ -182,22 +187,22 @@ export function InvestorsPage() {
 
   return (
     <PublicShell>
-      <div className="mb-6 text-center sm:mb-8">
-        <h1 className="text-2xl font-bold leading-tight sm:text-3xl md:text-4xl">
+      <div className="mb-8 text-center sm:mb-10">
+        <h1 className="text-2xl font-bold leading-tight sm:text-3xl lg:text-4xl">
           {t('investors.pageTitle')}
         </h1>
-        <p className="mx-auto mt-2 max-w-2xl text-sm text-white/75 sm:text-base">
+        <p className="mx-auto mt-3 max-w-3xl text-sm text-white/75 sm:text-base lg:text-lg">
           {t('investors.pageSubtitle')}
         </p>
       </div>
 
-      <div className="overflow-hidden rounded-2xl bg-white shadow-xl sm:rounded-3xl">
-        <div className="bg-clox-navy px-4 py-3 text-center text-white sm:px-6 sm:py-4">
-          <h2 className="text-lg font-bold sm:text-xl">{t('investors.cardTitle')}</h2>
+      <div className="mx-auto max-w-5xl overflow-hidden rounded-2xl bg-white shadow-xl sm:rounded-3xl">
+        <div className="bg-clox-navy px-5 py-4 text-center text-white sm:px-8 sm:py-5">
+          <h2 className="text-lg font-bold sm:text-xl lg:text-2xl">{t('investors.cardTitle')}</h2>
         </div>
 
         <form
-          className="space-y-5 p-4 sm:space-y-6 sm:p-6 md:p-8"
+          className="space-y-6 p-5 sm:space-y-8 sm:p-8 lg:p-10"
           onSubmit={form.handleSubmit(onSubmit)}
           noValidate
         >
@@ -359,9 +364,16 @@ export function InvestorsPage() {
           <button
             type="submit"
             disabled={mutation.isPending}
-            className="w-full rounded-full bg-clox-navy py-3 text-base font-bold text-white shadow disabled:opacity-50 sm:mx-auto sm:block sm:max-w-md sm:py-3.5"
+            className="flex w-full items-center justify-center gap-2 rounded-full bg-clox-navy py-3 text-base font-bold text-white shadow disabled:opacity-50 sm:mx-auto sm:max-w-md sm:py-3.5"
           >
-            {mutation.isPending ? t('submitting') : t('investors.submit')}
+            {mutation.isPending ? (
+              <>
+                <CloxLoader size={28} label={t('submitting')} />
+                <span>{t('submitting')}</span>
+              </>
+            ) : (
+              t('investors.submit')
+            )}
           </button>
 
           <p className="text-center text-[0.7rem] text-slate-400">{t('investors.footerContact')}</p>
@@ -372,7 +384,10 @@ export function InvestorsPage() {
         open={success}
         title={t('investors.successTitle')}
         body={t('investors.successBody')}
-        onClose={() => setSuccess(false)}
+        onClose={() => {
+          setSuccess(false);
+          router.push(`/${locale}`);
+        }}
       />
     </PublicShell>
   );
