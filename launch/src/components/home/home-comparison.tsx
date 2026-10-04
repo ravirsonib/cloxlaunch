@@ -3,7 +3,10 @@ import type { HomeCopy } from '@/components/home/copy';
 
 export function HomeComparison({ copy }: { copy: HomeCopy }) {
   return (
-    <section id="comparison" className="relative flex scroll-mt-[9.5rem] flex-wrap bg-black p-0 text-white sm:scroll-mt-28">
+    <section
+      id="comparison"
+      className="relative flex scroll-mt-[9.5rem] flex-wrap bg-black p-0 text-white sm:scroll-mt-28"
+    >
       <ComparisonPanel
         image="/landing/comparison-legacy-middleware.webp"
         imageAlt={copy.legacyTitle}
@@ -27,7 +30,6 @@ export function HomeComparison({ copy }: { copy: HomeCopy }) {
       <ComparisonPanel
         image="/landing/comparison-digital-marketplace.webp"
         imageAlt={copy.futureTitle}
-        imageFit="contain"
         overlayClassName="bg-gradient-to-b from-[rgba(10,31,60,0.35)] to-[rgba(10,31,60,0.6)]"
         mobileScrim="from-transparent via-clox-navy/45 to-[#061427]"
         contentAlign="sm:ml-12 sm:mr-auto"
@@ -47,7 +49,6 @@ export function HomeComparison({ copy }: { copy: HomeCopy }) {
 function ComparisonPanel({
   image,
   imageAlt,
-  imageFit = 'cover',
   overlayClassName,
   mobileScrim,
   contentAlign,
@@ -62,7 +63,6 @@ function ComparisonPanel({
 }: {
   image: string;
   imageAlt: string;
-  imageFit?: 'cover' | 'contain';
   overlayClassName: string;
   mobileScrim: string;
   contentAlign: string;
@@ -75,43 +75,35 @@ function ComparisonPanel({
   stats: readonly string[];
   statClassName: string;
 }) {
-  const objectClass =
-    imageFit === 'contain' ? 'object-contain object-center' : 'object-cover object-center';
-
   return (
-    <article className="relative flex min-w-full flex-1 flex-col sm:min-w-[50%] sm:justify-center sm:px-12 sm:py-32 2xl:px-16 2xl:py-40 3xl:px-20 3xl:py-48">
-      {/* Mobile: dedicated photo band */}
-      <div
-        className={`relative overflow-hidden sm:hidden ${
-          imageFit === 'contain' ? 'aspect-[16/10] min-h-[220px] bg-[#061427]' : 'h-[210px]'
-        }`}
-      >
+    <article className="relative flex min-w-full flex-1 flex-col overflow-hidden sm:min-w-[50%] sm:justify-center sm:px-12 sm:py-32 2xl:px-16 2xl:py-40 3xl:px-20 3xl:py-48">
+      {/* Mobile: full-width photo band — cover fills the band edge-to-edge */}
+      <div className="relative h-[210px] overflow-hidden sm:hidden">
         <img
           src={image}
           alt={imageAlt}
-          className={`h-full w-full ${objectClass}`}
+          className="absolute inset-0 h-full w-full object-cover object-center"
           loading="lazy"
           decoding="async"
         />
         <div className={`absolute inset-0 bg-gradient-to-b ${mobileScrim}`} aria-hidden />
       </div>
 
-      {/* Desktop: full-bleed background */}
-      <div
-        className={`absolute inset-0 hidden sm:block ${imageFit === 'contain' ? 'bg-[#061427]' : ''}`}
-        aria-hidden
-      >
+      {/* Desktop: full-bleed cover background (never contain — avoids letterbox + panel bg) */}
+      <div className="absolute inset-0 hidden sm:block" aria-hidden>
         <img
           src={image}
           alt=""
-          className={`absolute inset-0 h-full w-full ${objectClass}`}
+          className="absolute inset-0 h-full w-full object-cover object-center"
           loading="lazy"
           decoding="async"
         />
         <div className={`absolute inset-0 ${overlayClassName}`} />
       </div>
 
-      <div className={`relative z-10 px-6 pb-12 pt-6 sm:bg-transparent sm:px-0 sm:py-0 ${panelBg} sm:bg-transparent`}>
+      <div
+        className={`relative z-10 px-6 pb-12 pt-6 sm:bg-transparent sm:px-0 sm:py-0 ${panelBg} sm:bg-transparent`}
+      >
         <div
           className={`mx-auto w-full max-w-[500px] sm:[text-shadow:0_2px_14px_rgba(0,0,0,0.85)] 2xl:max-w-[560px] 3xl:max-w-[620px] ${contentAlign}`}
         >
