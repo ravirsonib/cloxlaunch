@@ -37,7 +37,7 @@ export const homeCopyEn = {
   overviewEyebrow: 'Modernising Australian Logistics',
   overviewTitle: 'Company Overview',
   overviewBody:
-    "Welcome to CLOX. Book direct. Track every load. Australia's digital full-load freight marketplace, connecting senders with vetted heavy vehicle operators, backed by a planned Protected Payment Hold.",
+    "Welcome to CLOX. Book direct. Track every load. Australia's digital full-load freight marketplace, connecting senders with vetted heavy vehicle operators, backed by a planned Protected Payment.",
   visionTab: 'Our Vision',
   missionTab: 'Our Mission',
   visionBody:
