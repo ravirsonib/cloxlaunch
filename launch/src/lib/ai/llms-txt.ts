@@ -16,7 +16,7 @@ export function buildLlmsTxt(full = false) {
     'Today the public site collects registry interest only for public indexing.',
     'It does not yet provide live booking, freight matching, ETA predictions, payments, or conversational lead capture.',
     '',
-    `Canonical site: ${siteUrl}`,
+    `Canonical site: ${siteUrl}/en`,
     `AI policy: ${siteUrl}/ai.txt`,
     `Full knowledge file: ${siteUrl}/llms-full.txt`,
     `Sitemap: ${siteUrl}/sitemap.xml`,

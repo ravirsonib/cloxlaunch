@@ -18,26 +18,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const siteUrl = getSiteUrl();
   const lastModified = new Date();
 
-  const entries: MetadataRoute.Sitemap = [
-    {
-      url: `${siteUrl}/llms.txt`,
-      lastModified,
-      changeFrequency: 'weekly',
-      priority: 0.45,
-    },
-    {
-      url: `${siteUrl}/llms-full.txt`,
-      lastModified,
-      changeFrequency: 'weekly',
-      priority: 0.35,
-    },
-    {
-      url: `${siteUrl}/ai.txt`,
-      lastModified,
-      changeFrequency: 'monthly',
-      priority: 0.3,
-    },
-  ];
+  const entries: MetadataRoute.Sitemap = [];
 
   for (const locale of supportedLocales) {
     for (const path of paths) {

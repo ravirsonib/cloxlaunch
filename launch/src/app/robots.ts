@@ -4,15 +4,12 @@ import { getSiteUrl } from '@/lib/env';
 /**
  * SEO + AEO/GEO crawl policy:
  * - Allow search engines and answer-engine / LLM crawlers
- * - Keep lead APIs and Partner EOI out of indexes
+ * - Keep lead APIs private; Partner EOI uses <meta name="robots" content="noindex, nofollow">
+ *   (must NOT be Disallowed here so Googlebot can read the noindex tag and avoid GSC "Blocked by robots.txt")
  * - Point agents at /llms.txt, /llms-full.txt, /ai.txt
  */
 const disallowPrivate = [
   '/api/',
-  '/en/partner/eoi',
-  '/hi/partner/eoi',
-  '/pa/partner/eoi',
-  '/*/partner/eoi',
   '/offline',
   '/en/investors',
   '/hi/investors',

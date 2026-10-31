@@ -36,7 +36,7 @@ export function HomeFooter({ copy, locale }: HomeSectionProps) {
           <a href={copy.contactHref} className="hover:text-clox-orange">
             {copy.contactShort}
           </a>
-          <Link href={`/${locale}/partner/eoi`} className="hover:text-clox-orange">
+          <Link href={`/${locale}/partner/eoi`} rel="nofollow" className="hover:text-clox-orange">
             {copy.partnerCta}
           </Link>
           <a

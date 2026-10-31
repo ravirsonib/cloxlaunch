@@ -96,7 +96,7 @@ function organizationNode(siteUrl: string, appName: string, description: string)
     name: appName,
     legalName: ORG.legalName,
     alternateName: ORG.alternateName,
-    url: siteUrl,
+    url: `${siteUrl}/en`,
     logo: {
       '@type': 'ImageObject',
       url: `${siteUrl}/brand/logo-clox.webp`,
@@ -180,7 +180,7 @@ function softwareNode(siteUrl: string, appName: string, description: string) {
     applicationCategory: 'BusinessApplication',
     operatingSystem: 'Web',
     description,
-    url: siteUrl,
+    url: `${siteUrl}/en`,
     offers: {
       '@type': 'Offer',
       price: '0',
@@ -300,7 +300,7 @@ export function buildJsonLd(locale: AppLocale, route: keyof typeof routeMeta) {
       '@type': 'WebSite',
       '@id': `${siteUrl}/#website`,
       name: appName,
-      url: siteUrl,
+      url: `${siteUrl}/en`,
       description: homeDescription,
       inLanguage: ['en-AU', 'hi', 'pa'],
       publisher: { '@id': `${siteUrl}/#organization` },
@@ -370,13 +370,15 @@ export function buildBreadcrumbGraph(
 export function buildFaqJsonLd(
   locale: AppLocale,
   faqs: readonly (readonly [string, string])[],
+  pagePath: '' | '/faq' = '/faq',
 ) {
   const siteUrl = getSiteUrl();
+  const pageUrl = `${siteUrl}/${locale}${pagePath}`;
   return {
     '@context': 'https://schema.org',
     '@type': 'FAQPage',
-    '@id': `${siteUrl}/${locale}/faq#faq`,
-    url: `${siteUrl}/${locale}/faq`,
+    '@id': `${pageUrl}#faq`,
+    url: pageUrl,
     inLanguage: locale === 'en' ? 'en-AU' : locale,
     isPartOf: { '@id': `${siteUrl}/#website` },
     mainEntity: faqs.map(([question, answer]) => ({

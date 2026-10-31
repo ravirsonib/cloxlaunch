@@ -43,6 +43,7 @@ export function HomeCohort({ copy, locale }: HomeSectionProps) {
               </Link>
               <Link
                 href={`/${locale}/partner/eoi`}
+                rel="nofollow"
                 className="inline-flex items-center justify-center rounded-full border border-slate-200 px-6 py-3 text-sm font-semibold text-clox-navy"
               >
                 {copy.partnerCta}

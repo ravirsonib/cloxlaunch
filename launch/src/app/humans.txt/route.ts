@@ -14,7 +14,7 @@ export function GET() {
     'Location: Clyde North, Victoria, Australia',
     '',
     '/* SITE */',
-    `Canonical: ${siteUrl}`,
+    `Canonical: ${siteUrl}/en`,
     `Standards: ${siteUrl}/llms.txt`,
     `AI policy: ${siteUrl}/ai.txt`,
     `Security: ${siteUrl}/.well-known/security.txt`,

@@ -12,7 +12,7 @@ export function GET() {
     `Contact: mailto:info@clox.com.au`,
     `Expires: ${expires.toISOString()}`,
     'Preferred-Languages: en, hi, pa',
-    `Canonical: ${siteUrl}`,
+    `Canonical: ${siteUrl}/en`,
     `Policy: ${siteUrl}/en/privacy`,
     '', 
   ].join('\n');

@@ -67,9 +67,8 @@ export function middleware(request: NextRequest) {
     return withLocaleHeader(NextResponse.redirect(url, 308), defaultLocale);
   }
 
-  const url = request.nextUrl.clone();
-  url.pathname = `/${defaultLocale}`;
-  return withLocaleHeader(NextResponse.redirect(url, 307), defaultLocale);
+  // Let unknown paths fall through to Next.js 404 (notFound) instead of 307-redirecting to /en
+  return withLocaleHeader(NextResponse.next(), defaultLocale);
 }
 
 export const config = {
